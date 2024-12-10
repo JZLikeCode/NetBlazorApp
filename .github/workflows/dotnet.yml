@@ -19,7 +19,7 @@ jobs:
       uses: trstringer/manual-approval@v1
       with:
         secret: ${{ github.TOKEN }}
-        approvers: gisjz
+        approvers: JZLikeCode
         minimum-approvals: 1
            
     - uses: actions/checkout@v4
