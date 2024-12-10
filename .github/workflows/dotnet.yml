@@ -16,10 +16,10 @@ jobs:
 
     steps:
     - name: Wait for approval
-      uses: trstringer/manual-approval@v1
+      uses: trstringer/manual-approval@v1.9.1
       with:
         secret: ${{ github.TOKEN }}
-        approvers: JZLikeCode
+        approvers: gisjz
         minimum-approvals: 1
            
     - uses: actions/checkout@v4
