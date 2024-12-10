@@ -20,8 +20,7 @@ jobs:
         secret: ${{ github.TOKEN }}
         approvers: gisjz
     - name: Deploy to production
-      run: echo deploying   
-      
+      run: echo deploying         
     - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
